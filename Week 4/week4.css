@@ -1,0 +1,89 @@
+article {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.article-date {
+    float: left;
+    font-weight: bold;
+    margin: 0 2rem 1rem 0;
+}
+
+.quote {
+    width: 300px;
+    font-size: 200%;
+    position: relative;
+    display: inline-block;
+    font-style: italic;
+}
+
+.quote:before {
+    content: open-quote;
+    font-weight: bold;
+    font-size: 750%;
+    position: absolute;
+    font-family: serif;
+    color:#ccc;
+    z-index: -1;
+}
+
+.quote:after {
+    content: close-quote;
+}
+
+.quote-right {
+    float: right;
+    margin: 1rem -8rem 2rem 2rem;
+    border-left: 4px solid green;
+    padding-left: 2rem;
+}
+
+.quote-right:before {
+    left: 1rem;
+    top: -6rem;
+}
+
+.quote-left {
+    float: left;
+    margin: 1rem 2rem 2rem -8rem;
+    border-right: 4px solid green;
+    padding-right: 2rem;
+    text-align: right;
+}
+
+.quote-left:before {
+    content: open-quote;
+    right: rem;
+    top: -5rem;
+}
+
+.image-left {
+    float: left;
+    margin: 2rem 2rem 2rem -8rem;
+}
+
+.image-caption {
+    background: tomato;
+    padding: 5px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
